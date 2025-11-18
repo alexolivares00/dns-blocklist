@@ -1,31 +1,48 @@
 ! -----------------------------------------
-! Bloqueo de Instagram — Formato EasyList
-! -----------------------------------------
-! Fecha: 2025-11-18
-! Autor: ChatGPT
-! Descripción: Reglas para bloquear Instagram
+! BLOQUEO COMPLETO DE INSTAGRAM
 ! -----------------------------------------
 
-! Bloqueo del dominio principal
+! Dominios principales de Instagram
 ||instagram.com^
-
-! Subdominios comunes de Instagram
 ||www.instagram.com^
 ||i.instagram.com^
 ||graph.instagram.com^
-||scontent.xx.fbcdn.net^
-||cdninstagram.com^
-
-! API y endpoints típicos usados por la app
 ||api.instagram.com^
 ||b-api.instagram.com^
 ||b-graph.instagram.com^
+||platform.instagram.com^
+||help.instagram.com^
+||business.instagram.com^
+||blog.instagram.com^
 
-! CDN usados para imágenes y contenido
-||instagram.fna.fbcdn.net^
-||instagram.fxx.fbcdn.net^
+! CDNs de Instagram
+||cdninstagram.com^
+||instagram.*.fbcdn.net^
+||*.cdninstagram.com^
+||scontent*.cdninstagram.com^
 
-! (Opcional) Bloqueo de URL específicas
-*/instagram/*
+! Infraestructura Meta/Facebook usada por Instagram
+||facebook.com/instagram/
+||graph.facebook.com^
+||*.facebook.com/plugins/instagram/
+||staticxx.facebook.com/instagram/
+||connect.facebook.net/instagram/
+
+! Endpoints de mensajes y notificaciones
+||mqtt-mini.facebook.com^
+||edge-mqtt.facebook.com^
+||*.mqtt-mini.facebook.com^
+||*.edge-mqtt.facebook.com^
+
+! Analytics y telemetría
+||analytics.instagram.com^
+||pixel.instagram.com^
+||error.instagram.com^
+||logs.instagram.com^
+
+! URLs específicas de la app móvil
+||instagram.com/direct/*
+||instagram.com/api/v1/direct*
+||instagram.com/messaging/*
 
 
