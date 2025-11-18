@@ -1,1 +1,31 @@
-instagram.com
+! -----------------------------------------
+! Bloqueo de Instagram — Formato EasyList
+! -----------------------------------------
+! Fecha: 2025-11-18
+! Autor: ChatGPT
+! Descripción: Reglas para bloquear Instagram
+! -----------------------------------------
+
+! Bloqueo del dominio principal
+||instagram.com^
+
+! Subdominios comunes de Instagram
+||www.instagram.com^
+||i.instagram.com^
+||graph.instagram.com^
+||scontent.xx.fbcdn.net^
+||cdninstagram.com^
+
+! API y endpoints típicos usados por la app
+||api.instagram.com^
+||b-api.instagram.com^
+||b-graph.instagram.com^
+
+! CDN usados para imágenes y contenido
+||instagram.fna.fbcdn.net^
+||instagram.fxx.fbcdn.net^
+
+! (Opcional) Bloqueo de URL específicas
+*/instagram/*
+
+
